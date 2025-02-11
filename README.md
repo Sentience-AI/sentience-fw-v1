@@ -166,7 +166,7 @@ npm run ocb-trade {agent_name}
 
 ## Prerequisites
 
-1. **API Access Point**: [api.ocb.ai](https://api.ocb.ai)
+1. **API Access Point**: [api.onchainbrain.xyz](https://api.onchainbrain.xyz)
 2. **HTTP Client**: Any standard HTTP client (curl, Postman, etc.)
 
 ## API Endpoints
@@ -180,7 +180,7 @@ Get agent details from the OnChainBrain database.
 Sample Request:
 
 ```bash
-curl https://api.ocb.ai/api/agent/Aura
+curl https://api.onchainbrain.xyz/api/agent/Aura
 ```
 
 Sample Response:
@@ -202,7 +202,7 @@ Interact with agents using URL parameters.
 Sample Request:
 
 ```bash
-curl "https://api.ocb.ai/api/agent/Aura/interact?message=Hello!"
+curl "https://api.onchainbrain.xyz/api/agent/Aura/interact?message=Hello!"
 ```
 
 Sample Response:
@@ -223,7 +223,7 @@ Interact with agents using JSON payloads.
 Sample Request:
 
 ```bash
-curl -X POST "https://api.ocb.ai/api/agent/Nova/interact" \
+curl -X POST "https://api.onchainbrain.xyz/api/agent/Nova/interact" \
 -H "Content-Type: application/json" \
 -d '{"message": "Hello, Nova"}'
 ```
@@ -244,7 +244,7 @@ const fetch = require("node-fetch");
 
 async function interactWithAgent(agentName, message) {
   const response = await fetch(
-    `https://api.ocb.ai/api/agent/${agentName}/interact`,
+    `https://api.onchainbrain.xyz/api/agent/${agentName}/interact`,
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
