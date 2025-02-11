@@ -1,4 +1,4 @@
-# OnChainBrainAI Agent Framework
+# OnChainBrain AI Agent Framework
 
 ![Logo](https://tan-raw-booby-681.mypinata.cloud/ipfs/bafybeia7gruybha3ljo6uzkatpjrd6ebjjnyrov6u2up5afklkcmblnnca)
 
