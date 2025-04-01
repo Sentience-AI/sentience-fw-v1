@@ -5,6 +5,7 @@ import fetch from "node-fetch";
 import { checkAgentExists } from "./supabase";
 
 config();
+//k
 
 const RPC_ENDPOINT = process.env.RPC_ENDPOINT || "https://api.mainnet-beta.solana.com";
 const web3Connection = new Connection(RPC_ENDPOINT, "confirmed");
