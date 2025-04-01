@@ -2,7 +2,7 @@
 
 ## Overview
 
-The OnChainBrain Framework enables developers to create and manage intelligent agents through a command-line interface. This open-source solution integrates with the OnChainBrain API, facilitating seamless interaction with your deployed AI agents.
+The Sentience Framework enables developers to create and manage intelligent agents through a command-line interface. This open-source solution integrates with the OnChainBrain API, facilitating seamless interaction with your deployed AI agents.
 
 ## ✨ Core Features
 
@@ -34,7 +34,7 @@ The OnChainBrain Framework enables developers to create and manage intelligent a
 1. Get the code:
 
 ```bash
-git clone https://github.com/onchainbrain/onchainbrain-fw-v1.git
+git clone https://github.com/sentience-ai/onchainbrain-fw-v1.git
 cd onchainbrain-fw-v1
 ```
 
