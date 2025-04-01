@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Sentience Framework enables developers to create and manage intelligent agents through a command-line interface. This open-source solution integrates with the OnChainBrain API, facilitating seamless interaction with your deployed AI agents.
+The Sentience Framework enables developers to create and manage intelligent agents through a command-line interface. This open-source solution integrates with the Sentience API, facilitating seamless interaction with your deployed AI agents.
 
 ## ✨ Core Features
 
